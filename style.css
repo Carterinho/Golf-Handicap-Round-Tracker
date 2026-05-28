@@ -100,3 +100,77 @@ nav a:hover {
 .card:hover {
     transform: translateY(-5px);
 }
+/* TRACKER */
+
+.tracker-section {
+    padding: 40px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+
+    max-width: 400px;
+
+    gap: 10px;
+
+    margin-bottom: 30px;
+}
+
+input,
+button {
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #14532d;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1f7a42;
+}
+
+/* STATS */
+
+.stats {
+    display: flex;
+    gap: 20px;
+
+    margin-bottom: 30px;
+}
+
+.stat-box {
+    background: white;
+    padding: 20px;
+
+    border-radius: 10px;
+
+    width: 200px;
+
+    text-align: center;
+
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* TABLE */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 12px;
+}
+
+th {
+    background-color: #14532d;
+    color: white;
+}
