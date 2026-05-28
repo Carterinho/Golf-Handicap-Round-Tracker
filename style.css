@@ -38,3 +38,65 @@ nav a {
 nav a:hover {
     color: gold;
 }
+/* HERO */
+
+.hero {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    padding: 50px;
+    gap: 30px;
+}
+
+.hero img {
+    width: 450px;
+    border-radius: 10px;
+}
+
+.hero-text {
+    max-width: 500px;
+}
+
+.btn {
+    display: inline-block;
+
+    margin-top: 20px;
+    padding: 12px 20px;
+
+    background-color: #14532d;
+    color: white;
+
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #1f7a42;
+}
+
+/* FEATURES */
+
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+    padding: 40px;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+
+    width: 250px;
+
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
